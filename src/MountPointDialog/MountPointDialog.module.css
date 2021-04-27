@@ -1,0 +1,31 @@
+.box {
+    background-color: #FFFFFF;
+    border: #f9f9fe 1px solid;
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -150px;
+    padding: 10px;
+
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.buttons {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons > button {
+    width: 100px;
+}
+
+.input {
+    margin-top: 30px;
+}

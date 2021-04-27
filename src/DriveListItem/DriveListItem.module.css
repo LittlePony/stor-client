@@ -1,0 +1,26 @@
+.box {
+    border-bottom: #f0f0f5 1px solid;
+}
+
+.driveProps {
+    display: flex;
+    min-height: 30px;
+    align-items: center;
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.nameCol {
+    width: 15%;
+    text-align: left;
+}
+
+.sizeCol {
+    width: 10%;
+}
+
+.mountpointCol {
+    width: 20%;
+}
